@@ -17,19 +17,18 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+    padding: O;
+}
+
 main {
-    h1 {
-        color: red;
-    }
-
-    p {
-        font-size: 20px;
-        padding: O;
-    }
-
-    main {
-        max-width: 840px;
-    }
+    max-width: 840px;
+}
 }
 
 aside {
@@ -41,10 +40,6 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-
-    p {
-        padding: 0;
-    }
 
     aside img {
         width: 200px;

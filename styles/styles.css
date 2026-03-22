@@ -23,7 +23,7 @@ h1 {
 
 p {
     font-size: 20px;
-    padding: O;
+    padding: 0;
 }
 
 main {
@@ -41,7 +41,7 @@ aside {
     color: #333;
     text-align: center;
 
-    aside img {
+    img {
         width: 200px;
         height: auto;
     }

@@ -9,7 +9,7 @@ nav a {
     padding: 20px
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -17,12 +17,47 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
+main p {
+    font-size: 20px;
     padding: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main {
+    max-width: auto;
+    margin: 25px;
+}
+
+aside {
+    width: auto;
+    margin: 10px;
+    border: 1px;
+    padding: 20px;
+    background-color: wheat;
+    color: black;
+    font-style: arial;
+    font-size: 20px;
+    line-height: 1.5;
+
+    h {
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        margin: Auto;
+    }
 }
 
 footer {
-    background-color: black;
-    color: white;
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    color: black;
     text-align: center;
+    font-style: italic;
 }

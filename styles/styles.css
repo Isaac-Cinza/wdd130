@@ -17,16 +17,22 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-main p {
-    font-size: 20px;
-    padding: 10px;
-    line-height: 1.5;
-    text-align: justify;
-}
-
 main {
-    max-width: auto;
-    margin: 25px;
+    h1 {
+        color: red;
+    }
+
+    p {
+        font-size: 20px;
+        padding: O;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    main {
+        max-width: auto;
+        margin: 25px;
+    }
 }
 
 aside {
@@ -40,16 +46,14 @@ aside {
     font-size: 20px;
     line-height: 1.5;
 
-    h {
-        font-weight: bold;
-    }
-
     p {
-        text-align: center;
+        text-align: justify;
+        padding: 0;
     }
 
     img {
-        width: 100%;
+        width: 200px;
+        height: auto;
         margin: Auto;
     }
 }

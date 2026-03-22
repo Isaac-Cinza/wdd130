@@ -9,13 +9,10 @@ body {
 }
 
 p,
-div {
+span {
     background-color: beige;
     margin: 1rem;
     padding: 1rem;
-}
-
-span {
     color: navy;
     background-color: lightblue;
 }
@@ -39,4 +36,8 @@ code {
 .question {
     background-color: #3d503d;
     color: #fff;
+}
+
+img {
+    display: block;
 }

@@ -1,0 +1,47 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    Margin: 125px
+}
+
+h1 {
+    text-align: center
+}
+
+h1 {
+    text-align: center
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+section {
+    text-align: center;
+    background-color: rgb(215, 232, 236);
+    border: 1px;
+    padding: 2px;
+    margin: 150px;
+}
+
+section1 {
+    content: center;
+    background-color: rgb(29, 30, 31);
+    border: 1px;
+    padding: 2px;
+    margin: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    Margin: 125px
+}

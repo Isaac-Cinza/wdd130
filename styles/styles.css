@@ -40,11 +40,11 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+}
 
-    img {
-        width: 200px;
-        height: auto;
-    }
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 footer {

@@ -48,12 +48,7 @@ aside {
     border: var(--border-size) solid rgb(0 0 0/0.2);
     /*1*/
     text-align: center;
-}
-
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    position: relative;
 }
 
 aside img {

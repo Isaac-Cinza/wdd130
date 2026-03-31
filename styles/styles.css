@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --main-color: #000;
     --first-padding-value: 20px;
@@ -38,12 +44,8 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
     border: var(--border-size) solid rgb(0 0 0/0.2);
     /*1*/
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 
@@ -57,4 +59,13 @@ footer {
     border-top: var(--border-size) solid var(--main-color);
     color: var(--main-color);
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
 }

@@ -51,6 +51,10 @@ aside {
     position: relative;
 }
 
+aside h1 {
+    position: absolute
+}
+
 aside img {
     width: 200px;
     height: auto;

@@ -37,8 +37,13 @@ main img {
 
 }
 
+main h2 {
+    margin: 1rem
+}
+
 h1 {
     color: var(--main-color);
+    margin: 1rem;
 }
 
 p {

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
 :root {
     --main-color: #000;
     --first-padding-value: 20px;
@@ -23,11 +28,13 @@ nav a {
 
 main img {
     float: right;
-    width: 150px;
+    width: 120px;
     height: auto;
     border: var(--border-size) solid var(--main-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 50px 0 1rem 1rem;
+
 }
 
 h1 {
@@ -37,16 +44,17 @@ h1 {
 p {
     font-size: var(--first-padding-value);
     padding: 0;
+    margin: 1rem;
 }
 
 main {
     max-width: 840px;
+    text-align: justify;
+    margin-top: 10px;
 }
 
 aside {
-    width: 20rem;
-    border: var(--border-size) solid rgb(0 0 0/0.2);
-    /*1*/
+    width: 20em;
     text-align: center;
     position: relative;
 }
@@ -58,6 +66,12 @@ aside h1 {
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 110px;
 }
 
 footer {
@@ -73,5 +87,9 @@ footer {
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }

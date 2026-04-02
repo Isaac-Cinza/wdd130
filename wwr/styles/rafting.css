@@ -107,10 +107,12 @@ h1 {
 /* 4. Style the article using absolute positioning and a style of your choice. */
 
 /* To put here */
+
 .hero article {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 41rem;
+    text-align: center;
+    top: 500px;
     color: white
 }
 
@@ -119,19 +121,11 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    border: red;
+    border: rgb(153, 22, 22);
     box-shadow: red;
     margin: 30px
 }
 
-/* Utiliser la couleur secondaire pour le fond du nav */
 nav {
     background-color: var(--secondary-color);
-}
-
-/* Utiliser la couleur accent2 pour le footer */
-footer {
-    background-color: var(--secondary-color);
-    color: var(--accent1-color) text-align:center;
-    padding: 12px;
 }

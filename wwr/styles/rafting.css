@@ -7,15 +7,15 @@
 :root {
     --primary-color: rgb(255, 255, 255);
     /* forest green */
-    --secondary-color: red;
+    --secondary-color: rgb(255, 255, 255);
     /* warm sand */
-    --accent1-color: black;
+    --accent1-color: white;
     /* dark slate blue */
     --accent2-color: #e9c46a;
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Bookman old style, Helvetica, sans-serif;
-    --background-color: rgb(209, 14, 14);
+    --background-color: rgb(14, 14, 15);
 }
 
 /* 4. Reset the CSS box-model properties for all elements to zero (0) using the universal selector and these declarations: */
@@ -29,7 +29,7 @@
 /* 5. Style the entire document body text content to use the body-font CSS variable. Also add a CSS declaration to set the text color for the content. */
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: black;
 }
 
 /* 6. Limit the page width by combining the header, main, and footer elements and center the content on the display using an auto left-right margin.  */
@@ -37,15 +37,14 @@ body {
 header,
 main,
 footer {
-    width: 840px;
-    margin: 0 auto;
+    border-top: 1px solid black;
 }
 
 /* 7. Style the headings (all or just those you are using) by declaring the font-family and text color. */
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     background-color: var(--background-color);
     text-align: center;
 }
@@ -100,8 +99,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #faf9f9;
+    background-color: var(--background-color);
+    color: white;
     /* white text – make sure there is enough contrast with the background-color */
 }
 
@@ -111,7 +110,7 @@ h1 {
 .hero article {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 350px;
+    top: 41rem;
     color: white
 }
 
@@ -132,7 +131,7 @@ nav {
 
 /* Utiliser la couleur accent2 pour le footer */
 footer {
-    background-color: var(--accent2-color);
-    color: var(--accent1-color) text-align: right;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color) text-align:center;
     padding: 12px;
 }

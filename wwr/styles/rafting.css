@@ -121,8 +121,8 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    border: rgb(153, 22, 22);
-    box-shadow: red;
+    border: var(--primary-color);
+    box-shadow: var(--accent1-color);
     margin: 30px
 }
 

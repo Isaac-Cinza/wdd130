@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The WO3 assignment instructions:
+ 
+In your about.html document, begin writing the necessary HTML structure by starting with the head with its standard, required meta and title content.
+Add a meta description to the head with concise content that is an enticing summary of what the web page is about.
+Add a meta author element with the content being your full name.
+In the body parent tag, add the following elements: header, main, and footer.
+The header contains two (2) items:
+A rafting site logo that you have created or that you have downloaded from the choices provided at WWR Sample Logos
+Check Your Understanding
+A nav element with four (4) child <a> tags with associated text content. The href attribute values, the page references, can be set now even though the pages do not all exist yet.
+index.html (the future home page of wwr, not to be confused with the course home page.)
+about.html
+trips.html
+contact.html -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac CINZA | WDD 130</title>
+    <meta name="description"
+      content="This is a white water rafting project, it will help us apply all the knowledge we accumulate through this course">
+    <meta name="author" content="Isaac CINZA">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+</head>
+
+<!-- The main element should contain the following three (3) elements:
+A div with a class of hero that contains these items:
+A hero image img that will be in the entire background of the div background.
+Be sure to pick an image that is large enough in dimensions to cover the entire div background.
+
+Help: Image Resources
+Course Rafting Image Repository
+Web Frontend Resources – see Images and Graphics section.
+All images used on your site must be optimized which means not pixelated and less than or equal to 125kB in size.
+
+A h1 element that has the title of the rafting company as the text content.
+An article element that contains:
+A smaller img element that portrays a happy client or happy, working employee.
+A p element with the company purpose, mission, creed, motto, etc. It is OK to use non-sense, placeholder language for now.
+A section element with the following contents:
+A h2 element with a section titled "History".
+A p element with a brief history of the company. It is OK to use nonsense language.
+A section element with the following contents.
+A h2 element with a section titled "Adventure Awaits You!".
+In the next assignment, you will add images to this section. 
+
+For now, this section content is empty. -->
+
+<body>
+    <header>
+        <img src="/wwr/images/z-wwr-blue.jpg" alt="The rafting site logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="hero">
+                <img src="/wwr/images/rafting-hero-image.jpg" alt="The background">
+                <h1>CINZA River Expeditions</h1>
+                <article>
+                    <img src="/wwr/images/rafting-employee.jpg" alt="...">
+                    <p>
+                        Our mission is to provide unforgettable whitewater rafting adventures that
+                        blend excitement,
+                        safety, and respect for nature.
+                        We believe in creating lasting memories for families, friends, and explorers
+                        while fostering
+                        teamwork and appreciation for the outdoors.
+                        Guided by experienced professionals, our company is committed to delivering
+                        thrilling journeys
+                        down the river with a spirit of adventure and care.
+                    </p>
+
+                </article>
+            </div>
+            <section>
+                <h2>History</h2>
+                <p>
+                    CINZA River Expeditions was founded with a passion for rivers and exploration.
+                    Starting as a small group of outdoor enthusiasts, the company grew into a
+                    trusted provider
+                    of safe and thrilling rafting experiences. Over the years, we have guided
+                    countless
+                    families,
+                    friends, and adventurers down spectacular rapids, building a tradition of
+                    excellence,
+                    teamwork,
+                    and respect for nature.
+                </p>
+            </section>
+
+            <section>
+                <h2>Adventure Awaits You!</h2>
+            </section>
+        </main>
+
+        <!-- A footer element that contains:
+A p paragraph element containing a copyright symbol, the year, the rafting company name, and your name.
+A nav element with a class assignment of socialmedia that contains three (3) img elements that are encased by a anchor elements pointing to three different social media outlets. The links can be generic. -->
+
+        <footer>
+            <p>&copy; 2026 🌊 CINZA River Expeditions 🌊 Isaac CINZA</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="/wwr/images/facebook_3670124.svg" alt="Facebook Icon">
+                </a>
+                <a href="https://linkedin.com">
+                    <img src="/wwr/images/linkedin_174857.svg" alt="LinkedIn Icon">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="/wwr/images/instagram_3955027.svg" alt="Instagram Icon">
+                </a>
+            </nav>
+        </footer>
+</body>
+<!-- Step 4: write CSS -->
+
+</html>

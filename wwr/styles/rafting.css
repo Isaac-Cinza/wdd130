@@ -124,3 +124,15 @@ h1 {
     box-shadow: red;
     margin: 30px
 }
+
+/* Utiliser la couleur secondaire pour le fond du nav */
+nav {
+    background-color: var(--secondary-color);
+}
+
+/* Utiliser la couleur accent2 pour le footer */
+footer {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color) text-align: right;
+    padding: 12px;
+}

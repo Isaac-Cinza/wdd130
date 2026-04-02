@@ -11,7 +11,7 @@
     /* warm sand */
     --accent1-color: white;
     /* dark slate blue */
-    --accent2-color: #e9c46a;
+    --accent2-color: #edecf3;
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Bookman old style, Helvetica, sans-serif;
@@ -121,11 +121,28 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    border: var(--primary-color);
-    box-shadow: var(--accent1-color);
-    margin: 30px
+    margin: 30px;
+    border: 0 solid var(--accent2-color);
+    box-shadow: 0 0 10px var(--accent2-color);
 }
 
 nav {
     background-color: var(--secondary-color);
+}
+
+.socialmedia {
+    display: flex;
+    /* aligne les logos en ligne */
+    justify-content: left;
+    /* centre horizontalement */
+    gap: 20px;
+    /* espace entre les logos */
+    margin-top: 10px;
+}
+
+.socialmedia img {
+    width: 40px;
+    /* réduit la taille des logos */
+    height: auto;
+    /* conserve les proportions */
 }

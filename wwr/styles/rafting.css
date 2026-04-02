@@ -15,7 +15,7 @@
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Bookman old style, Helvetica, sans-serif;
-    --background-color: rgb(129, 130, 133);
+    --background-color: rgb(209, 14, 14);
 }
 
 /* 4. Reset the CSS box-model properties for all elements to zero (0) using the universal selector and these declarations: */

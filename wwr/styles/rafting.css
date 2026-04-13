@@ -64,6 +64,61 @@ article {
     text-align: justify;
 }
 
+/* W04 . 2. Open the about.html file and the rafting.css files for editing. 
+3.Continue to make updates to the page. 
+4. Use CSS Grid in the header to create the horizontal layout between the logo and the navigation bar. */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.identity {
+    color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: burlywood;
+
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    /* empile le titre et le contenu */
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.history h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.history-content {
+    display: flex;
+    /* place p + img + p côte à côte */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.history-content p {
+    flex: 1;
+    /* chaque paragraphe occupe l’espace restant */
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.history-content img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* 9. Remove the underlines from the social media image links in the footer. This default underline on hyperlinks is considered to be visually distracting and unnecessary when applied to images as links. */
 
 .socialmedia a {
@@ -112,8 +167,26 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     text-align: center;
-    top: 650px;
+    top: 25%;
+    margin-bottom: 10px;
     color: white
+}
+
+.adventure-content {
+    display: flex;
+    /* si elles sont alignées en flex */
+    gap: 15px;
+    /* espace entre les images */
+    padding: 20px;
+    /* espace entre le bord du parent et les images */
+    justify-content: space-between;
+    /* optionnel : centre les images */
+}
+
+.adventure-content img {
+
+    width: 200px;
+    height: 100px;
 }
 
 /* 5. Style the img inside the article by floating it to the right and providing some margin and a specific width. The CSS for this image is important as we need to be specific to only this image on the page. The example above uses the following CSS: */
@@ -130,19 +203,35 @@ nav {
     background-color: var(--secondary-color);
 }
 
+.footer-content {
+    display: flex;
+    /* active Flexbox */
+    justify-content: space-evenly;
+    /* texte à gauche, icônes à droite */
+    align-items: center;
+    /* alignement vertical */
+    padding: 20px;
+    /* espace intérieur du footer */
+    background-color: #d3cfc5;
+    /* couleur de fond (exemple) */
+
+    /* couleur du texte */
+}
+
+.footer-content p {
+    margin: 0;
+    /* supprime marges par défaut */
+}
+
 .socialmedia {
     display: flex;
-    /* aligne les logos en ligne */
-    justify-content: left;
-    /* centre horizontalement */
-    gap: 20px;
-    /* espace entre les logos */
-    margin-top: 10px;
+    /* aligne les icônes en ligne */
+    gap: 15px;
+    /* espace égal entre les icônes */
 }
 
 .socialmedia img {
-    width: 40px;
-    /* réduit la taille des logos */
+    width: 30px;
+    /* taille uniforme des icônes */
     height: auto;
-    /* conserve les proportions */
 }

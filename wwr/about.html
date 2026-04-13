@@ -49,12 +49,16 @@ In the next assignment, you will add images to this section.
 
 For now, this section content is empty. -->
 
+<!--W04: 2. Open the about.html file and the rafting.css files for editing.
+3. Continue to make updates to the page.
+4. Use CSS Grid in the header to create the horizontal layout between the logo and the navigation bar.  -->
+
 <body>
     <header>
         <img src="images/z-wwr-blue.jpg" alt="The rafting site logo">
 
         <nav>
-            <ul>
+            <ul class="identity">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
@@ -85,24 +89,32 @@ For now, this section content is empty. -->
 
             </article>
         </div>
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>
-                CINZA River Expeditions was founded with a passion for rivers and exploration.
-                Starting as a small group of outdoor enthusiasts, the company grew into a
-                trusted provider
-                of safe and thrilling rafting experiences. Over the years, we have guided
-                countless
-                families,
-                friends, and adventurers down spectacular rapids, building a tradition of
-                excellence,
-                teamwork,
-                and respect for nature.
-            </p>
+            <div class="history-content">
+                <p>
+                    CINZA River Expeditions was founded with a passion for rivers and exploration.
+                    Starting as a small group of outdoor enthusiasts, the company grew into a
+                    trusted provider of safe and thrilling rafting experiences.
+                </p>
+                <img src="images/okay_img_rafting26_600 (1).jpg" alt="historical experience">
+                <p>
+                    Over the years, we have guided countless families, friends, and adventurers
+                    down spectacular rapids, building a tradition of excellence, teamwork,
+                    and respect for nature.
+                </p>
+            </div>
         </section>
 
-        <section>
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
+            <div class="adventure-content">
+                <img src="images/img1_rafting56_600.jpg" alt="adventure-image1">
+                <img src="images/img2_rafting15_1024 (1).jpg" alt="adventure-image2">
+                <img src="images/img3_rafting20_600 (1).jpg" alt="adventure-image3">
+                <img src="images/img4_rafting58_600.jpg" alt="adventure-image4">
+                <img src="images/img_5rafting22_600 (1).jpg" alt="adventure-image5">
+            </div>
         </section>
     </main>
 
@@ -110,7 +122,7 @@ For now, this section content is empty. -->
 A p paragraph element containing a copyright symbol, the year, the rafting company name, and your name.
 A nav element with a class assignment of socialmedia that contains three (3) img elements that are encased by a anchor elements pointing to three different social media outlets. The links can be generic. -->
 
-    <footer>
+    <footer class="footer-content">
         <p>&copy; 2026 🌊 CINZA River Expeditions 🌊 Isaac CINZA</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">

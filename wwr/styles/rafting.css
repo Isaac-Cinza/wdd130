@@ -189,12 +189,6 @@ h1 {
     height: 100px;
 }
 
-*/ .adventure-content figcaption {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
 /* 5. Style the img inside the article by floating it to the right and providing some margin and a specific width. The CSS for this image is important as we need to be specific to only this image on the page. The example above uses the following CSS: */
 
 .hero article img {

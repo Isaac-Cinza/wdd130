@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Activity Instructions
+step 1: Getting Started
+1. In the week05 folder in your wdd130 course repository, create a new file named "poll-form.html".
+2. Create a basic HTML page with a header, main, and footer. -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>THIS IS THE W05 LEARNING ACTIVITY ON HTML FORMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a W05 learning activity on FORMS">
+    <meta name="author" content="Isaac CINZA">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1> WDD 130 | HTML Form - User Poll </h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-item column2">
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
+            <!-- Create a multiple-choice format question using a select element that asks for the user's favorite browser. The following is an example of a select element with three options:
+             
+<label for="quantity">Select Quantity</label>
+<select name="quantity" id="quantity">
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select> -->
+            <div class="form-item column1">
+
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="opera">Opera Mini</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <!-- Include a question, "Do you have a household pet?"
+Use a single checkbox input element. The id and name attribute values should be "pet". 
+
+Include a final question, "List the places you have lived."
+Use a textarea element and provide a placeholder attribute value. In addition, provide a name and id attribute value of "feedback" and set the number of rows.-->
+
+            <div class="form-item colomn1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="5"
+                  placeholder="Mbujimayi Kasai-Oriental/DRC, Ngandajika Lomami/DRC , etc."></textarea>
+            </div>
+            <!-- 3. Add a button with a type of "submit" at the end of the form element. The text content of the button should be "Submit Poll". -->
+            <button type="submit">Submit Poll</button>
+
+        </form>
+    </main>
+    <footer>©2026 | HTML Form - User Poll Activity | Isaac CINZA</footer>
+
+</body>
+
+</html>

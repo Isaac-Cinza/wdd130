@@ -1,0 +1,28 @@
+/* STEP 2: CSS Styling 
+1. Create a new CSS file named table.css in a styles subfolder within week05 and link it in your HTML file. 
+2. Using table.css,
+style the table to match the image above. Consider adding styles for the following elements: 
+- table
+- th 
+- td 
+- thead th, tfoot tr */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}

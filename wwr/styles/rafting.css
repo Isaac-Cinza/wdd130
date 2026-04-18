@@ -325,3 +325,224 @@ button {
 button:hover {
     background-color: darkgreen;
 }
+
+/* The Home Page layout */
+/* === Newsletter Section === */
+.newsletter {
+    background-color: #edecf3;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.newsletter h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 60%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: darkgreen;
+}
+
+/* === Call to Action Section === */
+.cta {
+    background-color: #d3cfc5;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
+
+.cta h2 {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: darkgreen;
+}
+
+/* === Grid Layout Section === */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #edecf3;
+}
+
+.grid-layout div {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.grid-layout img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.grid-layout p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Trips.Html file /Layout */
+/* === Trip Descriptions Section === */
+.trip-descriptions {
+    background-color: #edecf3;
+    padding: 2rem;
+    text-align: center;
+}
+
+.trip-descriptions h2 {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.trip {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.trip:hover {
+    transform: scale(1.03);
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.trip p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* === Trips Table Section === */
+.trips-table {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trips-table h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #333;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: #d3cfc5;
+    color: #000;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* === CTA Section (reuse from home) === */
+.cta {
+    background-color: #d3cfc5;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
+
+.cta h2 {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: darkgreen;
+}

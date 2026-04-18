@@ -92,6 +92,12 @@ header {
     padding: 20px;
 }
 
+.title {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 .history h2 {
     text-align: center;
     font-size: 2rem;
@@ -235,4 +241,73 @@ nav {
     /* taille uniforme des icônes */
     height: auto;
 
+}
+
+.team {
+    display: flex;
+    /* aligne les icônes en ligne */
+    gap: 15px;
+    /* espace égal entre les icônes */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.team img {
+    width: 150px;
+    /* taille uniforme des icônes */
+    height: auto;
+
+}
+
+#team {
+    display: flex;
+    justify-content: space-around;
+    /* espace égal entre les figures */
+    flex-wrap: wrap;
+    /* permet de passer à la ligne si écran étroit */
+}
+
+figure {
+    width: 30%;
+    /* chaque figure prend environ un tiers */
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    padding: 1.5rem 1.5rem;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1px solid rgb(0 0 0 / 0.1);
+    background-color: #eee;
+    display: grid;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
